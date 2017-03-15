@@ -31,21 +31,19 @@ body{
 #WorkExperience {
     /*padding-top:50px;*/
     /*height:650px;*/
-    color: white;
-    /*background: url("../img/home.jpg") center no-repeat;*/
+    color: black;
+
+}
+
+.background{
+    background-color: gainsboro;
 }
 
 
-
 #Education {
-    padding-top:50px;
-    /*height:500px;*/
-    /*color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.86);*/
-    
+    padding-top:50px;   
     background-color: white;
     color: #000;
-
 }
 
 #Contact {
@@ -69,25 +67,21 @@ h2{
     font-size: 35px
 }
 
-
 .section {
     text-align: center;
 }
 
 .section h1.title {
-    display: inline-block;
-    /*color: black;*/
-    text-align: center;
+    display: inline-block;   
     border-bottom: 1px solid #111111;
-    /*border-top: 1px solid #111111;*/
     padding: 10px 0;
 
 }
+
+
 .section h3.title{
     color: black;
-
 }
-
 
 .section .icon {
     font-size: 60px;
@@ -97,30 +91,47 @@ h2{
 
 .section .row{
     margin-top: 30px;
-
 }
 
-#Education h1.title{
-    /*border-bottom: 1px solid whitesmoke;*/
-    /*max-width: 50px;*/
-    /*border-top: 1px solid #111111;*/
+.section h4.title1{
+    padding-right:300px;
+}
+
+.section h4.title2{
+    padding-right: 185px;
+}
+
+.section .fa-circle{
+    font-size: 12px;
 }
 
 #Education .row{
     margin-top: 20px;
 }
 
-/*#Education p{*/
-    /*text-align: center;*/
-    /*margin:20px 10px 20px ;*/
+#Education .row .ucf{
+    margin-top: 0;
+}
 
-/*}*/
+#Education h1.title{
+    display: inline-block;
+    border-bottom: 1px solid #111111;
+    padding: 10px 0;
+    /*text-align: center!important;     */
+}
 
-hr {
-    /*margin: 22px 55px;*/
-    /*border-width: 3px;*/
-    /*border-top: 1px solid #111111;*/
+.section1{
+    text-align: center!important;
+}
 
+.section1 ul{
+     display: inline-block;
+}
+
+.center{
+    width:550px;
+    margin:0 auto;
+    text-align:left;
 }
 
 #Home hr{
@@ -137,6 +148,35 @@ hr {
 
 .text_group {
     margin-top:30px;
+}
+
+.text_group li.degree{
+
+    padding-left: 50px;
+
+}
+
+.text_group li.degree1{
+
+    padding-left: 5px;
+}
+
+.text_group li.degree2{
+
+    width: 380px;
+}
+
+.text_group li.degree3{
+
+    width: 450px;
+}
+
+.section i.degree{
+    padding-left: 120px;
+}
+
+.section i.degree1{
+    padding-left: 145px;
 }
 
 .subtitle {
@@ -204,175 +244,30 @@ hr {
     padding: 20px 0px;
 }
 
+/*PORTFOLIO GRID*/
 
-/*---------------*/
-/***** Oscar *****/
-/*---------------*/
-
-
-/*
-#WorkExperience figure.effect-oscar figcaption {
-    padding: 15%;
-    /!*padding: 10%;*!/
-    /!*	background-color: rgba(58,52,42,0.7);
-        -webkit-transition: background-color 0.35s;
-        transition: background-color 0.35s;*!/
+.portfolio-item .portfolio-caption p,section h3.section-subheading{font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic}
+section{padding:100px 0}
+section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}
+section h3.section-subheading{font-size:16px;text-transform:none;font-weight:400;margin-bottom:75px}
+@media (min-width:768px)
+{
+    section{padding:150px 0}
 }
+.service-heading{margin:15px 0;text-transform:none}
 
-
-#WorkExperience figure.short_title  figcaption{
-    padding: 25%;
+#WorkExperience .portfolio-item{margin:0 0 15px;right:0}
+#WorkExperience .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}
+#WorkExperience .portfolio-item .portfolio-link .portfolio-hover{background:rgba(254,209,54,.9);position:absolute;width:100%;height:100%;opacity:0;transition:all ease .5s;-webkit-transition:all ease .5s;-moz-transition:all ease .5s}
+#WorkExperience .portfolio-item .portfolio-link .portfolio-hover:hover{opacity:1}
+#WorkExperience .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{position:absolute;width:100%;height:20px;font-size:20px;text-align:center;top:50%;margin-top:-12px;color:#fff}
+#WorkExperience .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{margin-top:-12px}
+#WorkExperience .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#WorkExperience .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4{margin:0}
+#WorkExperience .portfolio-item .portfolio-caption{max-width:400px;margin:0 auto;background-color:#fff;text-align:center;padding:25px}
+#WorkExperience .portfolio-item .portfolio-caption h4{text-transform:none;margin:0}
+#WorkExperience .portfolio-item .portfolio-caption p{font-size:16px;margin:0}footer span.copyright,footer ul.quicklinks{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif}
+#WorkExperience *{z-index:2}
+@media (min-width:767px)
+{
+    #WorkExperience .portfolio-item{margin:0 0 30px}
 }
-
-#WorkExperience figure.effect-oscar figcaption::before {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    bottom: 30px;
-    left: 30px;
-    border: 1px solid #fff;
-    content: '';
-}
-
-#WorkExperience figure.effect-oscar h2 {
-    margin: 0;
-    line-height: 1em;
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: transform 0.35s;
-    -webkit-transform: translate3d(0,100%,0);
-    transform: translate3d(0,100%,0);
-}
-
-#WorkExperience figure.effect-oscar figcaption::before,
-#WorkExperience figure.effect-oscar p {
-    opacity: 0;
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-}
-
-#WorkExperience figure.effect-oscar:hover h2 {
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
-
-#WorkExperience figure.effect-oscar:hover figcaption::before,
-#WorkExperience figure.effect-oscar:hover p {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
-
-#WorkExperience figure.effect-oscar:hover figcaption {
-    background-color: rgba(0,0,0,0.8);
-}
-
-#WorkExperience figure.effect-oscar:hover img {
-    opacity: 0.4;
-}
-
-@media (max-width: 1200px) {
-    figure.effect-oscar figcaption{padding: 12%;}
-    figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;}
-}
-
-@media (max-width: 900px) {
-    figure.effect-oscar figcaption {padding: 20%;}
-}
-
-
-#WorkExperiences{/!*padding-top:6em*!/;padding-bottom: 3em;}
-#WorkExperiences figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
-#WorkExperiences figcaption a:hover{text-decoration: none;padding: 0 3em;}
-
-#WorkExperiences.grid {
-    position: relative;
-    margin: 0 auto;
-    list-style: none;
-    text-align: center;
-}
-
-/!* Common style *!/
-#WorkExperiences.grid figure {
-    position: relative;
-    float: left;
-    overflow: hidden;
-    margin: 0;	/!*change here for spacing*!/
-    width: 33.333333333%;
-    /!*width: 25%;*!/
-    text-align: center;
-    cursor: pointer;
-}
-
-#WorkExperiences.grid figure img {
-    position: relative;
-    display: block;
-    max-width: 102%;
-    opacity: 1;
-}
-
-#WorkExperiences.grid figure figcaption {
-    padding: 2em;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.25em;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-#WorkExperiences.grid figure figcaption::before,
-#WorkExperiences.grid figure figcaption::after {
-    pointer-events: none;
-}
-
-#WorkExperiences.grid figure figcaption,
-#WorkExperiences.grid figure figcaption > a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/!* Anchor will cover the whole item by default *!/
-/!* For some effects it will show as a button *!/
-#WorkExperiences.grid figure figcaption > a {
-    z-index: 1000;
-    text-indent:200%;
-    white-space: nowrap;
-    font-size: 0;
-    opacity: 0;
-}
-
-#WorkExperiences.grid figure h2 {
-    word-spacing: -0.15em;
-    font-weight: 700;
-}
-
-#WorkExperiences.grid figure h2,
-#WorkExperiences.grid figure p {
-    margin: 0;
-}
-
-#WorkExperiences.grid figure p {
-    letter-spacing: 1px;
-    font-size: 68.5%;
-}
-
-
-
-@media screen and (max-width: 50em) {
-    .content {
-        padding: 0 10px;
-        text-align: center;
-    }
-    #WorkExperiences.grid figure {
-        width: 50%;
-    }
-}
-
-
-@media (max-width: 639px) {
-    #WorkExperiences.grid figure {width: 100%;}
-}*/
